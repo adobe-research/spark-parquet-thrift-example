@@ -1,4 +1,4 @@
-# Spark, Parquet, and Thrift Tutorial.
+# Spark, Parquet, and Thrift Example.
 [Apache Spark][spark] is a growing research project for distributed computing
 and can interact with HDFS and heavily utilizes in-memory caching.
 Modern datasets contain hundreds or thousands of columns and are
