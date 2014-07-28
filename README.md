@@ -21,17 +21,23 @@ columnar subsets.
 The following portions explains the critical portions of code
 and explains how to setup and run on your own cluster.
 This has been developed in CentOS 6.5 with
-sbt 0.13.5, Spark 1.0.0, and Hadoop 2.0.0-chd4.7.0.
+sbt 0.13.5, Spark 1.0.0, and Hadoop 2.0.0-cdh4.7.0.
 
 ```
 > cat /etc/centos-release
 CentOS release 6.5 (Final)
+
 > sbt --version
 sbt launcher version 0.13.5
+
 > thrift --version
 Thrift version 0.9.1
+
 > hadoop version
 Hadoop 2.0.0-cdh4.7.0
+
+> cat /usr/lib/spark/RELEASE
+Spark 1.0.0 built for Hadoop 2.0.0-cdh4.4.0
 ```
 
 # Code Walkthrough
