@@ -262,7 +262,7 @@ Create the fat JAR to `target/scala-2.10/SparkParquetThrift.jar` with the
 command `sbt assembly`.
 
 ```
-sbt assembly
+> sbt assembly
 [info] Packaging /Users/amos/spark-parquet-thrift/target/scala-2.10/SparkParquetThrift.jar ...
 [info] Done packaging.
 ```
@@ -279,7 +279,7 @@ change the following to your Spark installation directory and use
 the `spark-submit` program to load the libraries and run the example.
 
 ```
-sudo /usr/lib/spark/bin/spark-submit \
+> sudo /usr/lib/spark/bin/spark-submit \
   --class com.adobe.spark_parquet_thrift.SparkParquetThriftApp \
   --deploy-mode client \
   target/scala-2.10/SparkParquetThrift.jar
