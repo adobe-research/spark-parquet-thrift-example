@@ -281,6 +281,7 @@ sudo /usr/lib/spark/bin/spark-submit \
 # License.
 Licensed under the Apache Software License 2.0.
 
+[spark]: http://spark.apache.org/
 [parquet]: http://parquet.io/
 [thrift]: https://thrift.apache.org/
 [thrift-guide]: http://diwakergupta.github.io/thrift-missing-guide/
