@@ -140,6 +140,7 @@ This portion loads the columns specified in `parquet.thrift.column.filter`
 from the Parquet store.
 The glob syntax for the filter is defined in the
 [Parquet Cascading documentation][parquet-cascading] as follows.
+Columns not specified here are loaded as `null`.
 
 + **Exact match**: "name" will only fetch the name attribute.
 + **Alternative match**: "address/{street,zip}" will fetch both street and
