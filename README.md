@@ -14,9 +14,9 @@ columns of data into a Spark [RDD][rdd].
 Parquet with [Avro][avro] for data serialization
 and filters loading based on an equality predicate,
 but does not show how to load only a subset of columns.
-This project shows a complete [Scala][scala]/[sbt][sbt] project
+**This project shows a complete [Scala][scala]/[sbt][sbt] project
 using [Thrift][thrift] for data serialization and shows how to filter
-columnar subsets.
+columnar subsets.**
 
 The following portions explains the critical portions of code
 and explains how to setup and run on your own cluster.
