@@ -36,6 +36,9 @@ Thrift version 0.9.1
 
 > hadoop version
 Hadoop 2.0.0-cdh4.7.0
+
+> cat /usr/lib/spark/RELEASE
+Spark 1.0.0 built for Hadoop 2.0.0-cdh4.7.0
 ```
 
 # Code Walkthrough
